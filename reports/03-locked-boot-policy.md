@@ -1,6 +1,6 @@
 # Echo Show 5 Gen 3 — Locked Boot Policy and Non-Invasive Access
 
-12 November 2026, Israel. H97N6S / hypnos / MT8169. Continuation of **Boot Access and Execution Feasibility**, using the same original firmware snapshot, catalog build `7202000017420`. Earlier reports, archives and corrections remain preserved. New work is under `echo_locked_policy/`.
+12 November 2026. H97N6S / hypnos / MT8169. Continuation of **Boot Access and Execution Feasibility**, using the same original firmware snapshot, catalog build `7202000017420`. Earlier reports, archives and corrections remain preserved. New work is under `echo_locked_policy/`.
 
 ## Finding and practical effect
 
