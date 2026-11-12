@@ -1,6 +1,6 @@
 # Echo Show 5 Gen 3 — Boot Access and Execution Feasibility
 
-12 November 2026, Israel. Target: H97N6S / `hypnos` / MediaTek MT8169. Continuation of the preserved firmware investigation, principally build `7202000017420`. Scope: public documentation, original firmware, and non-invasive offline analysis. No firmware executable was run, device contacted, authorization state changed, or modified image constructed.
+12 November 2026. Target: H97N6S / `hypnos` / MediaTek MT8169. Continuation of the preserved firmware investigation, principally build `7202000017420`. Scope: public documentation, original firmware, and non-invasive offline analysis. No firmware executable was run, device contacted, authorization state changed, or modified image constructed.
 
 ## Conclusion
 
