@@ -1,6 +1,6 @@
 # Echo Show 5 Gen 3: firmware security and AI-pet feasibility
 
-Updated 12 November 2026, Israel. Continuation of the existing investigation; no research restart. This current assessment supersedes earlier incomplete status statements in the historical notes retained after it.
+Updated 12 November 2026. Continuation of the existing investigation; no research restart. This current assessment supersedes earlier incomplete status statements in the historical notes retained after it.
 
 ## Result and evidence strength
 
@@ -236,7 +236,7 @@ The following is the previously saved report, retained for continuity. Where it 
 
 # Echo Show 5 Gen 3: feasibility investigation
 
-Research date: 12 November 2026 (Israel), updated with a second static-analysis pass. Scope: public documentation and static analysis of public firmware only. No device was accessed, modified, emulated, or exploited. No unlock or exploit payload was constructed.
+Research date: 12 November 2026 (), updated with a second static-analysis pass. Scope: public documentation and static analysis of public firmware only. No device was accessed, modified, emulated, or exploited. No unlock or exploit payload was constructed.
 
 ## Assessment
 
