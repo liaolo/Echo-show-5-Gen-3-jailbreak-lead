@@ -1,6 +1,6 @@
 # Echo Show 5 Gen 3 — Final Custom Software Access Assessment
 
-12 November 2026, Israel. H97N6S / hypnos / MediaTek MT8169. Firmware baseline: 7202000017420. Continuation of *Locked Boot Policy and Non-Invasive Access*, not a replacement for its evidence.
+12 November 2026. H97N6S / hypnos / MediaTek MT8169. Firmware baseline: 7202000017420. Continuation of *Locked Boot Policy and Non-Invasive Access*, not a replacement for its evidence.
 
 **No new route to owner-controlled native execution, custom kernel boot, or persistent replacement OS was established.** The final pass did identify an important qualification: Amazon documents restricted skill presentations on this exact generation, and a separate sandboxed HTML/JavaScript game interface merits one small device-capability test. Neither supplies a native package installer or boot authorization.
 
@@ -100,7 +100,7 @@ Using normal menus, Wi-Fi and supplied power:
 2. Use the documented same-account development-skill process and matching locale [S2]. Capture only the relevant `supportedInterfaces` and viewport data; omit access tokens, account and device identifiers. Check APL and HTML separately [S4, S14]. This tests whether the unit actually exposes each restricted runtime. A simulator request is not evidence about the device.
 3. If HTML is present, launch a small official sample game through its normal skill mechanism. Record a screen response to a touch plus a corresponding runtime message, with model/build provenance. Capability advertisement alone is weaker than this execution observation. If absent, stop this branch; it is not a reason to alter firmware or authorization.
 
-A successful result would demonstrate sandboxed game execution on that unit only. A failure might reflect account/locale, service or sample configuration; preserve the failure rather than declaring the hardware incapable. This is not a purchase recommendation or a promise that a particular account in Israel is eligible. No skill, account or device was accessed during this investigation.
+A successful result would demonstrate sandboxed game execution on that unit only. A failure might reflect account/locale, service or sample configuration; preserve the failure rather than declaring the hardware incapable. This is not a purchase recommendation or a promise that a particular account in  is eligible. No skill, account or device was accessed during this investigation.
 
 | Observation category | What would reduce uncertainty | Current action |
 |---|---|---|
