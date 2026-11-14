@@ -1,0 +1,41 @@
+{
+  "inst": 1148502,
+  "returned": true,
+  "faults": [],
+  "stages": [],
+  "policy_assumptions": [
+    {
+      "function": "0x41e4a99c",
+      "synthetic_return": 1,
+      "meaning": "production hardware flag asserted"
+    },
+    {
+      "function": "0x41e0f308",
+      "synthetic_return": 0,
+      "meaning": "signed unlock not granted"
+    }
+  ],
+  "allocations": [],
+  "errors": [],
+  "return_value": 0,
+  "last_pcs": [
+    "0x41e0dc78","0x41e0dc7c","0x41e0db54","0x41e0db58",
+    "0x41e0db5c","0x41e0db60","0x41e0db64","0x41e0db68",
+    "0x41e0db6c","0x41e0ddbc","0x41e0ddc0","0x41e0dd54",
+    "0x41e4a99c","0x41e0dd58","0x41e0dd80","0x41e0f308",
+    "0x41e0dd84","0x41e0dd88","0x41e0dd8c","0x41e0dd90",
+    "0x41e0dd94","0x41e0dd98","0x41e0dd9c","0x41e0dda0",
+    "0x71000000"
+  ],
+  "fdt_original_sha256": "7518d9ad71b608c24e9ffb9e67cc7e362117f9fae4d71773637ca31d7f30f72b",
+  "fdt_result_sha256": "eae2b39eaa4e140eed8fe884497d480615741adb331fd1203121f63c5780c912",
+  "fdt_result_totalsize": 13737,
+  "fdt_modified_only_in_emulator": true,
+  "present_strings": {
+    "signature": true,
+    "key-amzn-production": true,
+    "key-amzn-engineering": false,
+    "required": true,
+    "algo": true
+  }
+}

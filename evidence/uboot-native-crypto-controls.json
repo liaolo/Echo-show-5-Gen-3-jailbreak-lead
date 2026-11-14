@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "original",
+      "original_firmware_file_unchanged": true,
+      "returned": true,
+      "return_value": 0,
+      "original_crypto_entered": true,
+      "host_crypto_callbacks": 0,
+      "original_dm_binding": {
+        "return_value": 0,
+        "device_ptr": "0x68000030",
+        "flags_before_probe": "0x40",
+        "instructions_at_bind": 7,
+        "flags_after_verifier": "0x1041",
+        "original_driver_ptr": "0x41eb5f98",
+        "original_uclass_ptr": "0x68000000"
+      },
+      "original_signature_result": 0,
+      "digest_matches_reference": true,
+      "reached_software_math": true,
+      "watched_instruction_events": 124,
+      "faults": [],
+      "errors": []
+    },
+    {
+      "case": "signature_one_bit_corrupted_in_memory",
+      "original_firmware_file_unchanged": true,
+      "returned": true,
+      "return_value": -1,
+      "original_crypto_entered": true,
+      "host_crypto_callbacks": 0,
+      "original_dm_binding": {
+        "return_value": 0,
+        "device_ptr": "0x68000030",
+        "flags_before_probe": "0x40",
+        "instructions_at_bind": 7,
+        "flags_after_verifier": "0x1041",
+        "original_driver_ptr": "0x41eb5f98",
+        "original_uclass_ptr": "0x68000000"
+      },
+      "original_signature_result": -22,
+      "digest_matches_reference": true,
+      "reached_software_math": true,
+      "watched_instruction_events": 75,
+      "faults": [],
+      "errors": []
+    }
+  ],
+  "original_fit_sha256": "c0aff41d028badda0b2781a60e358080f0aa8929c2742d0b7ce83c63ea39ec0a",
+  "firmware_rewritten": false
+}

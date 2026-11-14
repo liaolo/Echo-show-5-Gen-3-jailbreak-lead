@@ -1,0 +1,16 @@
+{
+  "reproduced": true,
+  "original_sha256": "6118b031654ed34ee7a27703b60e920c6df99155fe7235ecc86d3e5d047ffda9",
+  "authentic_fit_sha256": "c0aff41d028badda0b2781a60e358080f0aa8929c2742d0b7ce83c63ea39ec0a",
+  "number_cases": 2,
+  "both_cases_expected_enodev": true,
+  "both_cases_expected_einval": true,
+  "synthetic_class_lookup_reached": true,
+  "original_rsa_modexp_executed": false,
+  "limits": [
+    "no device binding",
+    "synthetic runtime class instance",
+    "no retail policy measured",
+    "no modified signed FIT"
+  ]
+}
