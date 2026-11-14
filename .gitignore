@@ -1,0 +1,23 @@
+# Keep raw vendor firmware and private hardware data out of public Git
+*.img
+*.bin
+*.dtb
+*.elf
+*.dump
+*.raw
+*.key
+*.pem
+*.p12
+*.pfx
+*.zip
+*.7z
+*.tar
+*.gz
+.env
+.env.*
+private/
+dumps/
+firmware/
+secrets/
+__pycache__/
+.DS_Store
