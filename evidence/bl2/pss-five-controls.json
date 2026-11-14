@@ -1,0 +1,41 @@
+{
+  "source_archive": "Echo_Gen3_BL2_Original_PSS_Full_Check_5_Cases_2026-11-14.zip",
+  "authentic_encoded_message_sha256": "027ce2c8926f86bf5b983c33ab68699823b01395931331036a18640ac78ed5b5",
+  "cases": [
+    {
+      "case": "authentic",
+      "instructions": 9836,
+      "return_code": 0,
+      "flag": 1,
+      "error": null
+    },
+    {
+      "case": "reordered_metadata",
+      "instructions": 9836,
+      "return_code": 0,
+      "flag": 1,
+      "error": null
+    },
+    {
+      "case": "digest_flipped",
+      "instructions": 9833,
+      "return_code": 0,
+      "flag": 0,
+      "error": null
+    },
+    {
+      "case": "signature_flipped",
+      "instructions": 65,
+      "return_code": -4,
+      "flag": 0,
+      "error": null
+    },
+    {
+      "case": "encoded_trailer_corrupt",
+      "instructions": 65,
+      "return_code": -4,
+      "flag": 0,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source_archive": "Echo_Gen3_BL2_Original_RSA_Exponent_3_Cases_2026-11-14.zip",
+  "bl2_sha256": "d2e14618886c18736149fe323da074f1210a7250eab6a89d736034f2e091eba2",
+  "uboot_fit_sha256": "157ef8534d4fbfcf85bd7c72c7c9ae7447e42086b3259fc5356c02af23ffcc93",
+  "cases": [
+    {
+      "case": "authentic_signature",
+      "instructions": 171489,
+      "montgomery_helper_calls": 19,
+      "encoded_message_sha256": "027ce2c8926f86bf5b983c33ab68699823b01395931331036a18640ac78ed5b5",
+      "trailer_byte": 188,
+      "matches_independent_rsa": true
+    },
+    {
+      "case": "signature_first_byte_corrupted",
+      "instructions": 171489,
+      "montgomery_helper_calls": 19,
+      "encoded_message_sha256": "12e3495ec89fe1b0ca5249e67272b679f9fdc1673c5f50796da5c7e0a1ef8115",
+      "trailer_byte": 0,
+      "matches_independent_rsa": true
+    },
+    {
+      "case": "signature_last_byte_corrupted",
+      "instructions": 171489,
+      "montgomery_helper_calls": 19,
+      "encoded_message_sha256": "7e35b8c1c5b62916984bdce3bb5a7a43a1ceb3acab7375f8b3f07b1b5a3fe5b1",
+      "trailer_byte": 12,
+      "matches_independent_rsa": true
+    }
+  ]
+}

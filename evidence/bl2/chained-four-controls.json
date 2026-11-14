@@ -1,0 +1,56 @@
+{
+  "source_archive": "Echo_Gen3_BL2_Original_RSA_PSS_Chained_4_Cases_2026-11-14.zip",
+  "bl2_sha256": "d2e14618886c18736149fe323da074f1210a7250eab6a89d736034f2e091eba2",
+  "uboot_fit_sha256": "157ef8534d4fbfcf85bd7c72c7c9ae7447e42086b3259fc5356c02af23ffcc93",
+  "rsa_key": "/signature/key-fit",
+  "results": [
+    {
+      "case": "authentic_signature",
+      "rsa_original_instructions": 171489,
+      "total_original_instructions": 181325,
+      "montgomery_helper_calls": 19,
+      "matches_independent_rsa": true,
+      "pss_original_instructions": 9836,
+      "pss_original_return": 0,
+      "pss_flag": 1,
+      "trailer_byte": 188,
+      "pss_trailer_valid": true
+    },
+    {
+      "case": "signature_first_byte_corrupted",
+      "rsa_original_instructions": 171489,
+      "total_original_instructions": 171554,
+      "montgomery_helper_calls": 19,
+      "matches_independent_rsa": true,
+      "pss_original_instructions": 65,
+      "pss_original_return": -4,
+      "pss_flag": 0,
+      "trailer_byte": 0,
+      "pss_trailer_valid": false
+    },
+    {
+      "case": "signature_last_byte_corrupted",
+      "rsa_original_instructions": 171489,
+      "total_original_instructions": 171554,
+      "montgomery_helper_calls": 19,
+      "matches_independent_rsa": true,
+      "pss_original_instructions": 65,
+      "pss_original_return": -4,
+      "pss_flag": 0,
+      "trailer_byte": 12,
+      "pss_trailer_valid": false
+    },
+    {
+      "case": "signed_digest_corrupted",
+      "rsa_original_instructions": 171489,
+      "total_original_instructions": 181322,
+      "montgomery_helper_calls": 19,
+      "matches_independent_rsa": true,
+      "pss_original_instructions": 9833,
+      "pss_original_return": 0,
+      "pss_flag": 0,
+      "trailer_byte": 188,
+      "pss_trailer_valid": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source_archive": "Echo_Gen3_BL2_RSA_Embedded_Key_Parser_3_Cases_2026-11-14.zip",
+  "cases": [
+    {
+      "case": "key_fit",
+      "node": "0x28",
+      "instructions": 9619,
+      "return": "0x8",
+      "num_bits": 2048,
+      "inverse": "0xe7b46963"
+    },
+    {
+      "case": "key_da",
+      "node": "0x2c4",
+      "instructions": 9454,
+      "return": "0x8",
+      "num_bits": 2048,
+      "inverse": "0x997c19aa"
+    },
+    {
+      "case": "invalid_node",
+      "node": "0x9999",
+      "instructions": 266,
+      "return": "0x0",
+      "num_bits": 0
+    }
+  ]
+}
